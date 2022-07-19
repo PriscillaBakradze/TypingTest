@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="test.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="favicon (3).ico" rel="icon"> 
+    <title>Typing Test</title>
+</head>
+
+<body>
+    <h1>⌨️ Test Your Typing Skills ⌨️</h1>
+    <div id="container">
+        <div id="stats">
+            <h2>Timer:<span class="span" id="timer">0s</span></h2>
+            <h2 class="mistake">Mistakes:<span class="span" id="mistake">0</span></h2>
+        </div><br><br>
+        <div id="text" onmousedown="return false" onselectstart="return false"></div><br><br>
+        <textarea rows="10" cols="100" id="text-field"></textarea>
+        <button id="start" onclick="start(this)">Start</button>
+        <button id="try-again" onclick="start(this)">Try Again</button>
+        <div id="results">
+            <h3 style="margin-left: 140px">Result</h3>
+            <div id="wrapper">
+                <p>Accuracy:<span class="span" id="accuracy"></span></p>
+                <p>WPM:<span class="span" id="wpm"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>

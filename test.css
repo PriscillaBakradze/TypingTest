@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 500% !important;
+    width: 100% !important;
+    background: linear-gradient(#b2dfdb,#80cbc4,#4db6ac);
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+h1 {
+    position: absolute;
+    top: 4rem;
+}
+
+#container {
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    background-color: #cddbdb;
+    width: 800px;
+    height: 520px;
+    padding: 15px;
+    margin-top: 220px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.span {
+    padding: 8px;
+}
+
+span {
+    padding: .5px;
+}
+
+.mistake {
+    float: right;
+    margin-top: -30px;
+}
+
+textarea {
+    resize: none;
+    margin-left: 25px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea:focus {
+    outline-color: #4db6ac;
+}
+
+button {
+    margin: 15px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #4db6ac 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #333333;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    height: 48px;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+}
+
+button:focus {
+    box-shadow: #4db6ac 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px,#4db6ac 0 -3px 0 inset;
+}
+
+button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #4db6ac 0 -3px 0 inset;
+}
+
+button:active {
+    box-shadow: #4db6ac 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+#results {
+   text-align: center;
+   margin-top: 70px;
+   display: none;
+}
+
+#wrapper {
+    margin: 10px;
+}
+
+p {
+    padding: 5px;
+}
+
+#accuracy {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#wpm {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.pass {
+    color: #3AA346;
+}
+
+.fail {
+    color: firebrick;
+}
